@@ -14,7 +14,8 @@ def easy_login(request):
 
     try:
         render_page = render_to_string("base.html", context)
-
+        print('render_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_pagerender_page')
+        print
     except TemplateSyntaxError:
         if not apps.is_installed("django.contrib.staticfiles"):
             raise ImproperlyConfigured(
